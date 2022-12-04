@@ -1,0 +1,8 @@
+# Core
+linux
+linux-firmware
+#nvidia
+#nvidia-utils
+networkmanager
+git
+vim
