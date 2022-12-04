@@ -3,5 +3,8 @@ linux-firmware
 nvidia
 nvidia-utils
 networkmanager
+xorg-server
+xfce4
 git
 vim
+
