@@ -1,8 +1,7 @@
-# Core
 linux
 linux-firmware
-#nvidia
-#nvidia-utils
+nvidia
+nvidia-utils
 networkmanager
 git
 vim
