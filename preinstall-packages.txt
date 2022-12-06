@@ -7,6 +7,6 @@ xorg-server
 xfce4
 git
 vim
-texinf
+texinfo
 man-db
 man-pages
