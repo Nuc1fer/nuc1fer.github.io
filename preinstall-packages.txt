@@ -1,9 +1,8 @@
 linux
 linux-firmware
+nvidia
+nvidia-utils
 networkmanager
-mesa
-lib32-mesa
-xf86-video-nouveau
 xorg-server
 xfce4
 git
