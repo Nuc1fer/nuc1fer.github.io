@@ -2,7 +2,6 @@ linux
 linux-firmware
 networkmanager
 mesa
-lib32-mesa
 xf86-video-nouveau
 xorg-server
 xfce4
