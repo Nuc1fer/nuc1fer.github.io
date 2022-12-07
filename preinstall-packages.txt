@@ -1,12 +1,1 @@
-linux
-linux-firmware
-nvidia
-nvidia-utils
-networkmanager
-xorg-server
-xfce4
-git
-vim
-texinfo
-man-db
-man-pages
+base linux linux-firmware nvidia nvidia-utils networkmanager xorg-server xfce4 git vim texinf man-db man-page
