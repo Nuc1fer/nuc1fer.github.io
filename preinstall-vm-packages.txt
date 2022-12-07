@@ -1,1 +1,14 @@
-base linux linux-firmware networkmanager mesa lib32-mesa xf86-video-nouveau xorg-server xfce4 git vim texinf man-db man-pages
+base
+linux
+linux-firmware
+networkmanager
+mesa
+lib32-mesa
+xf86-video-nouveau
+xorg-server
+xfce4
+git
+vim
+texinf
+man-db
+man-pages
