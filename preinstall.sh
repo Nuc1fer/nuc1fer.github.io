@@ -25,9 +25,12 @@ fi
 
 if [ system_mounted = "y" ] || [ system_mounted = "Y" ];
 then
-  echo -n -e" [+] Beginning system installation on /mnt"
-  echo -n -e" [+] Gather the packages with cURL"
-  curl $preinstall_packages > packages.txt
+  echo -n -e " [+] Beginning system installation on /mnt"
+  echo -n -e " [+] Gather the packages with cURL"
+  curl $preinstall_packages > original_packages.txt
+  check_output($?)
+  echo -n -e " [+] Replacing any carriage return on txt (0x0D) as pacman will not read packages file(s) with carriage return on it"
+  sed 's/\x0D$//' > packages.txt
   check_output($?)
   echo -n -e "[+] Run pacstrap"
   pacstrap -K /mnt - < packages.txt
